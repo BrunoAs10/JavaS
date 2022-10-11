@@ -1,0 +1,86 @@
+@import "variables";
+
+.home article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+
+#logomexcal{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    margin-right:25px;
+    background-color: rgb(224, 221, 24);
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    border-radius: 25%;
+    border-width: 3px;
+    padding: 7px;
+}
+
+#parrafoMexcal{
+    text-align: center;
+    font-size: 25px;
+    border-style: dashed;
+    border-radius: 15px;
+    background-color: $colorparrafos;
+    
+}
+
+
+#parrafoComida{
+    text-align: center;
+    margin-top: 10px;
+    height: 140px;
+    padding: 10px;
+    font-size: 12px;
+    border-style: dashed;
+    border-radius: 20px;
+    background-color: $colorparrafos;
+    width: 300px;
+   
+    
+    
+    
+}
+    
+
+
+#parrafoBebida{
+    text-align: center;
+    margin-top: 10px;
+    height: 140px;
+    padding: 10px;
+    font-size: 12px;
+    border-style: dashed;
+    border-radius: 20px;
+    width: 300px;
+    background-color: $colorparrafos;
+
+}
+
+
+
+#comida1{
+
+    border-style:groove ;
+    margin-top: 10px;
+    
+
+}
+
+#bebida1{
+
+    border-style:groove ;
+    
+}
+
+.slide img{
+    height: 500px;
+    width: 500px;
+}

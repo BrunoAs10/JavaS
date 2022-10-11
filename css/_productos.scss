@@ -1,0 +1,28 @@
+.productos{
+    padding: 10px;
+    grid-area: productos;
+
+    article{
+        border-style: groove;
+        border-radius: 15px;
+        border-width: 5px;
+        
+        background-image: url(../media/just-waves.png);
+        padding: 10px;
+        text-align: center;
+
+    }
+}
+
+.tabasco {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.valentina{
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+

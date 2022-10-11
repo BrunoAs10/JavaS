@@ -1,0 +1,33 @@
+footer{
+    background-image: url(../media/halftone-yellow\ \(1\).png);
+    margin:auto;
+    border: solid;
+    border-width: 1px;
+ 
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#redes a{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+}
+
+
+#copy{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: bold;
+}

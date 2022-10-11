@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ofrecemos productos fieles a la gastronomía Mexicana, con la misma dedicación y esfuerzo para generar una experiencia única.">
+    <meta name="keywords" content="MEXICO, MEXCAL, COMIDA MEXICANA, BEBIDAS MEXICANAS, TACOS, BURRITOS, NACHOS, COMIDA CASERA, BEBIDAS IMPORTADAS, CARRITO">
+    <title>Carrito</title>
+    
+    <link rel="shortcut icon" href="media pages/Mexcal.jpg">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/5c536e9f69.js" crossorigin="anonymous"></script>
+
+</head>
+<body id="main">
+    
+    <header>
+            <span class="nav">
+                <h1><a href="../index.html" id="logo"><span style="color:rgb(52, 100, 52)">Me</span><span style="color: black;">X</span><span style="color:rgb(182, 28, 28)">cal</span></a></h1>
+            </span>
+
+            <span class="nav">
+                
+
+                <div class="buscador">
+                    <input type="search" placeholder="Buscar" id="barraBuscar">
+                    <input type="submit" name="Buscar" value="Buscar" id="botonBuscar">
+                </div>
+            
+            
+                
+                <nav class="navegador">    
+                    
+                
+
+                
+
+                    <ul>
+
+                        <li><a href="../index.html">Home</a></li>
+    
+                        <li><a href="../pages/productos.html">Productos</a></li></div>
+    
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+    
+                        <li><a href="../pages/ubicación.html">Ubicación</a></li>
+    
+                        <li><a href="../pages/carrito.html">Carrito</a></li>
+    
+                        <li><a href="../pages/notificaciones.html">Notificaciones</a></li>
+                        
+
+    
+                    </ul>
+                  
+                
+
+
+                </nav>
+
+            </span>
+            <div class="navUl">
+
+                <h1><a href="#" id="logoUl"><span style="color:rgb(52, 100, 52)">Me</span><span style="color: black;">X</span><span style="color:rgb(182, 28, 28)">cal</span></a></h1>
+    
+                <input id="inputNav" type="search" placeholder="Buscar...">
+    
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="nav-menu">
+    
+                    <li><a href="../index.html">Home</a></li>
+    
+                    <li><a href="../pages/productos.html">Productos</a></li>
+    
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+    
+                    <li><a href="../pages/ubicación.html">Ubicación</a></li>
+    
+                    <li><a href="../pages/carrito.html">Carrito</a></li>
+    
+                    <li><a href="../pages/notificaciones.html">Notificaciones</a></li>
+    
+    
+                </ul>
+    
+                 
+    
+                
+            </div>      
+            
+            
+
+    </header>
+    <section class="carrito">
+        <h3>Carrito</h3>
+        <article>
+            <fieldset>
+                <table border="1" cellpadding="3" cellspacing="5" align="center">
+                    <th>------------</th>
+                    <th>Detalle</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                    <th>-------</th>
+                    
+
+
+                    <tr>
+                        <td><img src="media pages/tortilla maiz.jpg" height="150" width="100" alt="tortillaMaiz"></td>
+                        <td> <strong>Tortillas de Harina de Maíz</strong></td>
+                        <td><input type="button" value="-">
+                            <p>2</p>
+                       <input type="button" value="+"></td>
+                        <td>$700</td>
+                        <td><input type="button" value="Quitar"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="media pages/chiles.jpg" height="150" width="100" alt="chiles"></td>
+                        <td><strong>Chiles Picantes Varios
+                            <br>
+                            jalapeños, Habaneros, Arbol</strong>
+                    
+                        </td>
+                        <td><input type="button" value="-">
+                           <p>3</p>
+                        <input type="button" value="+"></td>
+                        <td>$750</td>
+                        <td><input type="button" value="Quitar"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset class="datosEntrega">
+
+                <legend>Datos para la Entrega</legend>
+                <label for="nombreCompleto">Nombre Completo:</label>
+                <br>
+                <input type="text" name="NombreCompleto" placeholder="NombreCompleto">
+                <br>
+                <label for="Direccion">Dirección:</label>
+                <br>
+                <input type="text" name="Direccion" placeholder="Direccion">
+                <br>
+                
+
+                <label for="Localidad">Localidad:</label>
+                
+                <br>
+                <input type="text" name="Localidad" placeholder="Localidad">
+                <br>
+                
+
+                <label for="codigoPostal">Codigo Postal:</label>
+                
+                <br>
+                <input type="text" name="codigoPostal" placeholder="CP">
+                <br>
+                
+
+                <label for="numeroTel">Número de Teléfono:</label>
+                
+                <br>
+                <input type="text" name="NumeroTel" placeholder="Número de Teléfono">
+                <br>
+                <br>
+            
+                
+
+                <label for="texto">Indicaciones para la Entrega:</label>
+            
+                <br>
+                <textarea name="texto" id="" cols="40" rows="10" placeholder="Mensaje..."></textarea >
+
+
+            </fieldset>
+            <fieldset>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre Completo:</label>
+                </div>
+                <div>    
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="NombreCompleto">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Dirección:</label>
+                </div>
+                <div>    
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Direccion">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Localidad:</label>
+                </div>
+                <div>    
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Localidad">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Codigo Postal:</label>
+                </div>
+                <div>    
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="CP">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Número de Teléfono:</label>
+                </div>
+                <div>    
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Numero de Telefono">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Indicaciones para la Entrega:</label>
+                </div>
+                <div>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de la Tarjeta</legend>
+                <label for="nombreTitular">Nombre del Titular:</label>
+                <br>
+                <input type="text" name="NombreTitular" placeholder="NombreTitular">
+                <br>
+                <label for="NumTarjeta">Número de la Tarjeta:</label>
+                <br>
+                <input type="text" name="Numtarjeta" placeholder="Número de la Tarjeta">
+                <br>
+                
+
+                <label for="vencimiento">Vencimiento:</label>
+                
+                
+                <input type="text" name="vencimiento" placeholder="MM/AA">
+                
+                
+
+                <label for="CVV">CVV:</label>
+                
+                
+                <input type="text" name="CVV" placeholder="CVV">
+            
+                <br>
+                <input type="checkbox" name="terminosycondiciones">
+                <label for="terminosycondiciones">Acepto los <a href="">Términos y Condiciones</a> de MeXcal.</label>
+                <br>
+
+                <input type="button" value="Confirmar Compra">
+                
+
+
+
+            </fieldset>
+            
+            
+                
+
+            
+
+        </article>
+      
+    </section>
+    <footer class="footer">
+        <p><span id="copy">Copyright 2022</span><span id="redes">
+            <!--redirecciono al home ya que no exiten tales redes sociales de dicha pag-->
+            <a href="../index.html" target="_blank">FB</a>
+            <a href="../index.html" target="blank">IG</a>
+            <a href="../index.html" target="blank">TW</a></span>
+            
+        </p>
+        
+        
+    </footer>
+</body>
+</html>

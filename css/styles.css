@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Alfa+Slab+One&family=Lobster&family=Permanent+Marker&display=swap");
+header {
+  width: 100%;
+  height: 100%;
+  background-image: url(../media/halftone-yellow\ \(1\).png);
+  padding: 20px;
+  margin: auto;
+  border: solid;
+  border-width: 1px;
+}
+header ul {
+  list-style-type: none;
+  list-style: none;
+}
+header ul ul {
+  position: absolute;
+  display: none;
+}
+header ul ul li {
+  display: block;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+  position: relative;
+}
+header ul li a {
+  text-decoration: none;
+  background-color: rgb(199, 157, 31);
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+}
+header ul li a:hover {
+  color: rgb(86, 104, 5);
+}
+
+#logo {
+  text-decoration: none;
+  list-style: none;
+  font-size: 60px;
+  margin-right: 25px;
+  background-color: rgb(224, 221, 24);
+  border-style: groove;
+  border-color: rgb(0, 0, 0);
+  border-radius: 25%;
+  border-width: 3px;
+  padding: 7px;
+}
+
+#barraBuscar {
+  height: 30px;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#botonBuscar {
+  height: 30px;
+}
+
+.nav {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-image: url(../media/halftone-yellow\ \(1\).png);
+  margin: auto;
+  border: solid;
+  border-width: 1px;
+}
+
+#redes {
+  display: flex;
+  justify-content: center;
+}
+
+#redes a {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: white;
+  padding: 3px;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+  color: black;
+}
+
+#copy {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.home article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#logomexcal {
+  text-decoration: none;
+  list-style: none;
+  font-size: 30px;
+  margin-right: 25px;
+  background-color: rgb(224, 221, 24);
+  border-style: groove;
+  border-color: rgb(0, 0, 0);
+  border-radius: 25%;
+  border-width: 3px;
+  padding: 7px;
+}
+
+#parrafoMexcal {
+  text-align: center;
+  font-size: 25px;
+  border-style: dashed;
+  border-radius: 15px;
+  background-color: rgb(33, 223, 160);
+}
+
+#parrafoComida {
+  text-align: center;
+  margin-top: 10px;
+  height: 140px;
+  padding: 10px;
+  font-size: 12px;
+  border-style: dashed;
+  border-radius: 20px;
+  background-color: rgb(33, 223, 160);
+  width: 300px;
+}
+
+#parrafoBebida {
+  text-align: center;
+  margin-top: 10px;
+  height: 140px;
+  padding: 10px;
+  font-size: 12px;
+  border-style: dashed;
+  border-radius: 20px;
+  width: 300px;
+  background-color: rgb(33, 223, 160);
+}
+
+#comida1 {
+  border-style: groove;
+  margin-top: 10px;
+}
+
+#bebida1 {
+  border-style: groove;
+}
+
+.slide img {
+  height: 500px;
+  width: 500px;
+}
+
+.productos {
+  padding: 10px;
+  grid-area: productos;
+}
+.productos article {
+  border-style: groove;
+  border-radius: 15px;
+  border-width: 5px;
+  background-image: url(../media/just-waves.png);
+  padding: 10px;
+  text-align: center;
+}
+
+.tabasco {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.valentina {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.ubicacion div {
+  display: inline-block;
+  margin: 10px;
+}
+
+.horarios li {
+  list-style-type: none;
+}
+
+.map {
+  border-style: groove;
+  border-color: black;
+  border-width: 1px;
+}
+
+.shadow {
+  background-image: url(../media/just-waves.png);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../media/old_map.png);
+  font-family: "Acme", sans-serif;
+}
+
+.fieldset {
+  background-color: bisque;
+}
+
+.notifi {
+  margin: 10px;
+}
+
+.carrito {
+  margin: 10px;
+}
+
+@media screen and (min-width: 320px) {
+  .productos {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+  }
+  .nav {
+    display: none;
+  }
+  #logoUl {
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    margin-right: 25px;
+    background-color: rgb(224, 221, 24);
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    border-radius: 25%;
+    border-width: 3px;
+    padding: 7px;
+  }
+  .navUl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bar-btn {
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgba(0, 0, 0, 0.95);
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 2;
+  }
+  .nav-menu li {
+    display: none;
+    line-height: 30px;
+    margin: 50px;
+    transition: all 0.5s;
+  }
+  .nav-menu li a.active, .nav-menu li a:hover {
+    color: rgb(86, 104, 5);
+    transition: 0.3s;
+  }
+  #check {
+    display: none;
+  }
+  #check:checked ~ .nav-menu {
+    height: 100vh;
+  }
+  #check:checked ~ .nav-menu li {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .productos {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 10px;
+  }
+  .nav {
+    display: inline-block;
+  }
+  .navUl {
+    display: none;
+  }
+}
+.slide img {
+  height: 300px;
+  width: 500px;
+}
+
+.shadow {
+  background-image: url(../media/just-waves.png);
+}
+
+* {
+  list-style: none;
+}/*# sourceMappingURL=styles.css.map */
